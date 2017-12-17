@@ -1,6 +1,11 @@
-import * as React from 'react'
+import * as React from "react";
 
-const App = () => 
-  <h1>This is another website</h1>
+interface AppProps {
+  name: string;
+}
+
+const App = (props: AppProps) => (
+  <h1>This is another website, made by {props.name}</h1>
+);
 
 export default App;

@@ -14,7 +14,11 @@
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{tsx,ts,js,jsx,json,css,md}": ["prettier --write", "git add"]
   },
   "devDependencies": {
     "@types/jest": "^21.1.8",
@@ -22,6 +26,9 @@
     "@types/react": "^16.0.31",
     "@types/react-dom": "^16.0.3",
     "gh-pages": "^1.1.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0",
+    "prettier": "^1.9.2",
     "tslint-immutable": "^4.4.0"
   }
 }
