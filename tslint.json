@@ -1,5 +1,6 @@
 {
   "extends": ["tslint-react"],
+  "rulesDirectory": "node_modules/tslint-immutable/rules",
   "rules": {
     "align": [true, "parameters", "arguments", "statements"],
     "ban": false,
@@ -104,6 +105,9 @@
     "no-this": true,
     "no-class": true,
     "no-mixed-interface": true,
-    "no-expression-statement": true
+    "no-expression-statement": [
+      true,
+      { "ignore-prefix": ["console.", "it(", "ReactDOM.render"] }
+    ]
   }
 }

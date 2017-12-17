@@ -6,7 +6,7 @@ const Title = styled.h1`
 `;
 
 interface AppProps {
-  greeting: string;
+  readonly greeting: string;
 }
 
 const App = (props: AppProps) => (
