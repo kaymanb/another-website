@@ -1,11 +1,16 @@
 import * as React from "react";
+import styled from "styled-components";
+
+const Title = styled.h1`
+  text-align: center;
+`;
 
 interface AppProps {
-  name: string;
+  greeting: string;
 }
 
 const App = (props: AppProps) => (
-  <h1>This is another website, made by {props.name}</h1>
+  <Title>{props.greeting}, this is another website.</Title>
 );
 
 export default App;
