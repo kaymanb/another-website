@@ -7,10 +7,10 @@ My own website boilerplate. Bootstrapped with [create-react-app](https://github.
 * [styled-components](https://www.styled-components.com/)
 * [Functional TSLint rules](https://github.com/jonaskello/tslint-immutable)
 
-# Why?
+## Why?
 
 At work and in other projects, all of these decisions have been made for me. I want to be able to build my own modern websites from the ground up.
 
-# What's next?
+## What's next?
 
 * [AMP](https://www.ampproject.org/)
