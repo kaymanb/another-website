@@ -69,11 +69,6 @@
         "trailing-comma": [false],
 
         "triple-equals": [ true, "allow-null-check" ],
-        "typedef": [
-            true,
-            "parameter",
-            "property-declaration"
-        ],
         "typedef-whitespace": [
             true,
             {
@@ -94,6 +89,23 @@
             "check-separator",
             "check-type",
             "check-typecast"
-        ]
+        ],
+
+        // Recommended built-in rules
+        "no-var-keyword": true,
+        "no-parameter-reassignment": true,
+        "typedef": [true, "call-signature"],
+
+        // Immutability rules
+        "readonly-keyword": true,
+        "readonly-array": true,
+        "no-let": true,
+        "no-object-mutation": true,
+
+        // Functional style rules
+        "no-this": true,
+        "no-class": true,
+        "no-mixed-interface": true,
+        "no-expression-statement": true
     }
 }
