@@ -1,5 +1,6 @@
 {
   "name": "another-website",
+  "homepage": "https://kaymanb.github.io/another-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,12 +12,15 @@
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "eject": "react-scripts-ts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@types/jest": "^21.1.8",
     "@types/node": "^8.5.1",
     "@types/react": "^16.0.31",
-    "@types/react-dom": "^16.0.3"
+    "@types/react-dom": "^16.0.3",
+    "gh-pages": "^1.1.0"
   }
 }
