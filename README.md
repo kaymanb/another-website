@@ -1,6 +1,6 @@
 # Another Website
 
-My own website boilerplate. Bootstrapped with [create-react-app](https://github.com/facebookincubator/create-react-app).
+Another new website. Bootstrapped with [create-react-app](https://github.com/facebookincubator/create-react-app).
 
 * [Typescript](https://www.typescriptlang.org/)
 * [Prettier](https://prettier.io/)

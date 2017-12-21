@@ -1,16 +1,24 @@
 import * as React from "react";
-import styled from "styled-components";
+import styled, { ThemeProvider } from "styled-components";
+import { Intro } from "./components/Intro";
 
-const Title = styled.h1`
-  text-align: center;
+const theme = {
+  mainFontFamily: "Martel, serif"
+};
+
+const Wrapper = styled.div`
+  margin: auto;
+  padding: 0 1em;
+  max-width: 35em;
+  font-size: 20px;
 `;
 
-interface AppProps {
-  readonly greeting: string;
-}
-
-const App = (props: AppProps) => (
-  <Title>{props.greeting}, this is another website.</Title>
+const App = () => (
+  <ThemeProvider theme={theme}>
+    <Wrapper>
+      <Intro remark="nice" />
+    </Wrapper>
+  </ThemeProvider>
 );
 
 export default App;

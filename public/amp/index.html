@@ -5,8 +5,10 @@
 
     <!-- AMP .js files (Don't touch) -->
     <script async src="https://cdn.ampproject.org/v0.js"></script>
+
     <title>Kayman Brusse</title>
     <link rel="canonical" href="http://kaymanb.github.io/another-website/index.html">
+    <link href="https://fonts.googleapis.com/css?family=Martel:400,700,900" rel="stylesheet">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <script type="application/ld+json">
       {
@@ -32,16 +34,38 @@
     
     <!-- AMP Styling -->
     <style amp-custom>
-      h1 {
-        text-align: center;
-      }
-    </style>
 
+      body {
+        font-family: Martel, serif;
+      }
+
+      .wrapper {
+        margin: auto;
+        padding: 0 1em;
+        max-width: 35em;
+        font-size: 20px;
+      }
+
+      .title {
+        font-weight: 900;
+        font-size: 60px;
+        margin-top: 1em;
+        margin-bottom: 0;
+      }
+
+    </style>
   </head>
+
   <body>
+
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-    <h1>Hey, this is an AMP webpage.</h1>
+
+    <!-- Main Webpage -->
+    <div class="wrapper">
+      <h1 class="title">Wow, nice (AMP) webpage!</h1>
+    </div>
+
   </body>
 </html>
