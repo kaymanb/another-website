@@ -7,10 +7,13 @@ const theme = {
 };
 
 const Wrapper = styled.div`
-  margin: auto;
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  color: #333;
+
+  margin: 10em auto;
   padding: 0 1em;
   max-width: 35em;
-  font-size: 20px;
 `;
 
 const App = () => (
