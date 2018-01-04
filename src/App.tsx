@@ -1,9 +1,19 @@
 import * as React from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { Intro } from "./components/Intro";
+import { Link } from "./components/Link";
 
 const theme = {
-  headerFontFamily: "Martel, serif"
+  headerFontFamily: "Martel, serif",
+
+  /* Colors from http://www.color-hex.com/color-palette/52402 */
+  colors: {
+    lightBlue: "#0098d4",
+    red: "#e32017",
+    yellow: "#ffd300",
+    green: "#00782a",
+    blue: "#003688"
+  }
 };
 
 const MainWrapper = styled.div`
@@ -19,7 +29,12 @@ const MainWrapper = styled.div`
 const App = () => (
   <ThemeProvider theme={theme}>
     <MainWrapper>
-      <Intro remark="fancy" />
+      <Intro remark="sweet" />
+      I am currently working full-time at{" "}
+      <Link href="https://flipp.com/home" target="_blank">
+        Flipp
+      </Link>{" "}
+      and taking classes on the side.
     </MainWrapper>
   </ThemeProvider>
 );

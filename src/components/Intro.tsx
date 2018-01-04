@@ -1,11 +1,16 @@
 import * as React from "react";
 import styled from "styled-components";
+import { Link } from "./Link";
 
-const Title = styled.h1`
+const Title = styled.div`
+  margin-bottom: 1em;
+`;
+
+const Header = styled.h1`
   font-family: ${props => props.theme.headerFontFamily};
   font-weight: 900;
+  line-height: 1.25;
   font-size: 60px;
-  margin-bottom: 0.5em;
   text-align: center;
 `;
 
@@ -14,10 +19,12 @@ interface IntroProps {
 }
 
 export const Intro = (props: IntroProps) => (
-  <React.Fragment>
-    <Title>Damn, that is one {props.remark} webpage!</Title>
-    For a third year student at the University of Toronto, currently working at
-    Flipp, and mostly interested in logic, alorithms and complexity, I don't
-    think it's half bad.
-  </React.Fragment>
+  <Title>
+    <Header>Damn, that is one {props.remark} webpage!</Header>
+    For some guy studying math and computer science at the{" "}
+    <Link href="https://www.utoronto.ca/" target="_blank">
+      University of Toronto
+    </Link>{" "}
+    , I don't think it's half bad.
+  </Title>
 );
