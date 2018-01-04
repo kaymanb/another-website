@@ -33,8 +33,8 @@ const App = () => (
       I am currently working full-time at{" "}
       <Link href="https://flipp.com/home" target="_blank">
         Flipp
-      </Link>{" "}
-      and taking classes on the side.
+      </Link>
+      .
     </MainWrapper>
   </ThemeProvider>
 );
