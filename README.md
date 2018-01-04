@@ -6,7 +6,6 @@ Another new website. Bootstrapped with [create-react-app](https://github.com/fac
 * [Prettier](https://prettier.io/)
 * [styled-components](https://www.styled-components.com/)
 * Functional [TSLint rules](https://github.com/jonaskello/tslint-immutable)
-* [AMP](https://www.ampproject.org/) version of index.html
 
 ## Why?
 
@@ -15,3 +14,4 @@ At work and in other projects, all of these decisions have been made for me. I w
 ## What's next?
 
 * Automatically render AMP verified HTML from react?
+* Fill out personal info.
