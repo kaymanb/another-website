@@ -3,10 +3,10 @@ import styled, { ThemeProvider } from "styled-components";
 import { Intro } from "./components/Intro";
 
 const theme = {
-  mainFontFamily: "Martel, serif"
+  headerFontFamily: "Martel, serif"
 };
 
-const Wrapper = styled.div`
+const MainWrapper = styled.div`
   font-family: Open Sans, sans-serif;
   font-size: 20px;
   color: #333;
@@ -18,9 +18,9 @@ const Wrapper = styled.div`
 
 const App = () => (
   <ThemeProvider theme={theme}>
-    <Wrapper>
-      <Intro remark="nice" />
-    </Wrapper>
+    <MainWrapper>
+      <Intro remark="fancy" />
+    </MainWrapper>
   </ThemeProvider>
 );
 
