@@ -29,12 +29,15 @@ const MainWrapper = styled.div`
 const App = () => (
   <ThemeProvider theme={theme}>
     <MainWrapper>
-      <Intro remark="sweet" />
-      I am currently working full-time at{" "}
-      <Link href="https://flipp.com/home" target="_blank">
-        Flipp
-      </Link>
-      .
+      <Intro />
+      <span>
+        My academic interests are mainly in logic, algorithms and complexity. I
+        am currently working full-time at{" "}
+        <Link href="https://flipp.com/home" target="_blank">
+          Flipp
+        </Link>
+        .
+      </span>
     </MainWrapper>
   </ThemeProvider>
 );
