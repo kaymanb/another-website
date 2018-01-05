@@ -6,6 +6,7 @@ Another new website. Bootstrapped with [create-react-app](https://github.com/fac
 * [Prettier](https://prettier.io/)
 * [styled-components](https://www.styled-components.com/)
 * Functional [TSLint rules](https://github.com/jonaskello/tslint-immutable)
+* HTTPS through [Cloudflare](https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/)
 
 ## Why?
 
