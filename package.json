@@ -1,6 +1,6 @@
 {
   "name": "another-website",
-  "homepage": "https://kaymanb.github.io/another-website",
+  "homepage": "http://kaymanb.me",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
