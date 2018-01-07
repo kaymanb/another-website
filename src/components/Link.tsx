@@ -32,7 +32,11 @@ const StyledLink = styled.a`
 interface LinkProps {
   readonly url?: string;
   readonly color?: string;
-  readonly children?: JSX.Element | string | undefined;
+  readonly children?:
+    | JSX.Element
+    | string
+    | ReadonlyArray<JSX.Element | string>
+    | undefined;
 }
 
 export const Link = (props: LinkProps) => (
