@@ -1,14 +1,16 @@
 {
   "name": "another-website",
-  "homepage": "http://kaymanb.me",
+  "homepage": "https://kaymanb.me",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@types/enzyme": "^3.1.6",
     "@types/ramda": "^0.25.8",
+    "@types/react-icons": "^2.2.4",
     "ramda": "^0.25.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-icons": "^2.2.7",
     "react-scripts-ts": "2.8.0",
     "styled-components": "^2.3.0",
     "tslint-immutable": "^4.4.0"
