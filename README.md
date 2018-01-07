@@ -14,5 +14,4 @@ At work and in other projects, all of these decisions have been made for me. I w
 
 ## What's next?
 
-* Adding a picture of my beautiful face.
 * Automatically render AMP verified HTML from react?
