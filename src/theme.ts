@@ -18,6 +18,7 @@ export const theme: Theme = {
     green: "#00782a",
     lightLightBlue: "#4cb6e0",
     lightBlue: "#0098d4",
-    blue: "#003688"
+    lightDarkBlue: "#4c72ab",
+    darkBlue: "#003688"
   }
 };

@@ -90,7 +90,7 @@
     "readonly-keyword": true,
     "readonly-array": true,
     "no-let": true,
-    "no-object-mutation": true,
+    "no-object-mutation": [true, { "ignore-prefix": ["unsafe"] }],
 
     // Functional style rules
     "no-this": true,
@@ -98,7 +98,15 @@
     "no-mixed-interface": true,
     "no-expression-statement": [
       true,
-      { "ignore-prefix": ["console.", "it(", "ReactDOM.render"] }
+      {
+        "ignore-prefix": [
+          "console.",
+          "it(",
+          "ReactDOM.render",
+          "unsafe",
+          "require"
+        ]
+      }
     ]
   }
 }
