@@ -8,6 +8,12 @@ import {
 } from "react-icons/lib/ti";
 import { Link } from "./Link";
 
+// This is literally the only part of antd we want, and
+// rather than ejecting from create-react-app to add the
+// modular babel plugin, we just do the import ourselves.
+const message = require("antd/lib/message");
+require("antd/lib/message/style/css");
+
 const ICON_SIZE: number = 25;
 const EMAIL: string = "<kaymanbrusse@gmail.com>";
 
@@ -20,10 +26,15 @@ const handleEmailClick = () => {
   unsafeDocument.body.appendChild(unsafeTextArea);
   unsafeTextArea.select();
 
+  const unsafeMessage = message;
   try {
-    unsafeDocument.execCommand("copy");
+    const successful = document.execCommand("copy");
+    if (!successful) {
+      unsafeMessage.error("Failed to copy " + EMAIL + " to clipboard.");
+    }
+    unsafeMessage.success("Copied " + EMAIL + " to clipboard!");
   } catch (err) {
-    console.debug("Failed to copy email.");
+    unsafeMessage.error("Failed to copy " + EMAIL + " to clipboard.");
   }
   unsafeDocument.body.removeChild(unsafeTextArea);
 };

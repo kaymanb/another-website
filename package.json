@@ -4,9 +4,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/antd": "^1.0.0",
     "@types/enzyme": "^3.1.6",
     "@types/ramda": "^0.25.8",
     "@types/react-icons": "^2.2.4",
+    "antd": "^3.1.0",
     "ramda": "^0.25.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
