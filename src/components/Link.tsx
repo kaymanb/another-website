@@ -41,7 +41,7 @@ interface LinkProps {
 
 export const Link = (props: LinkProps) => (
   <StyledLink
-    color={props.color}
+    color="lightBlue"
     href={!props.url ? undefined : props.url}
     target="_blank"
   >
