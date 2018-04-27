@@ -6,8 +6,8 @@ const capitalize = (word: string) =>
   word.charAt(0).toUpperCase() + word.slice(1);
 
 interface StyledLinkProps {
-  readonly color?: string;
-  readonly theme: Theme;
+  color?: string;
+  theme: Theme;
 }
 
 const linkColor = (props: StyledLinkProps, light?: boolean) => {
@@ -30,21 +30,13 @@ const StyledLink = styled.a`
 // If no url prop is passed, this just acts as an hoc to
 // change the color of children on hover.
 interface LinkProps {
-  readonly url?: string;
-  readonly color?: string;
-  readonly children?:
-    | JSX.Element
-    | string
-    | ReadonlyArray<JSX.Element | string>
-    | undefined;
+  url?: string;
+  color?: string;
+  children?: JSX.Element | string;
 }
 
 export const Link = (props: LinkProps) => (
-  <StyledLink
-    color="lightBlue"
-    href={!props.url ? undefined : props.url}
-    target="_blank"
-  >
+  <StyledLink color="lightBlue" href={props.url} target="_blank">
     {props.children}
   </StyledLink>
 );

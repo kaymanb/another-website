@@ -5640,9 +5640,9 @@ tslib@^1.7.1, tslib@^1.8.0:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.8.1.tgz#6946af2d1d651a7b1863b531d6e5afa41aa44eac"
 
-tslint-immutable@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/tslint-immutable/-/tslint-immutable-4.4.0.tgz#e05fac1430f10dd9533fbb9389a733a024fc7368"
+tslint-immutable@^4.5.4:
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/tslint-immutable/-/tslint-immutable-4.5.4.tgz#17b0d825c1067fa6d125a8010d9b22feb12e5d32"
 
 tslint-loader@^3.5.3:
   version "3.5.3"

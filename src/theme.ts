@@ -1,7 +1,7 @@
 export interface Theme {
-  readonly headerFontFamily: string;
-  readonly colors: {
-    readonly [key: string]: string;
+  headerFontFamily: string;
+  colors: {
+    [key: string]: string;
   };
 }
 
