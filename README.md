@@ -14,4 +14,6 @@ At work and in other projects, all of these decisions have been made for me. I w
 
 ## What's next?
 
-* Automatically render AMP verified HTML from react?
+* Change the colour scheme + font
+* Update resume + blurb
+* Add tracking
