@@ -30,8 +30,8 @@ const handleEmailClick = () => {
 export const Title = () => (
   <Wrapper>
     Kayman Johannes Brusse
-    <div title="Click me to copy to clipboard!" onClick={handleEmailClick}>
-      <Link color="red">{EMAIL}</Link>
+    <div onClick={handleEmailClick}>
+      <Link>{EMAIL}</Link>
     </div>
   </Wrapper>
 );

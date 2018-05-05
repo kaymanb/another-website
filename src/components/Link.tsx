@@ -27,7 +27,7 @@ const StyledLink = styled.a`
   }
 `;
 
-// If no url prop is passed, this just acts as an hoc to
+// If no url prop is passed, this just acts as ad hoc to
 // change the color of children on hover.
 interface LinkProps {
   url?: string;
