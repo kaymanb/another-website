@@ -4,7 +4,6 @@ import { Link } from "./Link";
 
 const Wrapper = styled.div`
   text-align: left;
-  margin-top: 1em;
 `;
 
 export const Social = () => {
