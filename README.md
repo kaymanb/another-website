@@ -2,6 +2,7 @@
 
 Another new website. Bootstrapped with [create-react-app](https://github.com/facebookincubator/create-react-app).
 
+* Deployed using [gh-pages](https://github.com/tschaub/gh-pages)
 * [Typescript](https://www.typescriptlang.org/)
 * [Prettier](https://prettier.io/)
 * [TSLint](https://palantir.github.io/tslint/)
