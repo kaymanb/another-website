@@ -40,8 +40,8 @@ const App = () => (
         programming languages.
       </p>
       <p>
-        This summer I am at UofT researching community health inside of online
-        social networks, supported by an{" "}
+        This summer I am at UofT researching models for community health inside
+        of online social networks, supported by an{" "}
         <Link url="http://www.nserc-crsng.gc.ca/Students-Etudiants/UG-PC/USRA-BRPC_eng.asp">
           NSERC URSA
         </Link>. Before that, I spent the year at{" "}
