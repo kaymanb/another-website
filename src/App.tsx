@@ -34,17 +34,18 @@ const App = () => (
         <Title />
       </Row>
       <p>
-        I study math and computer science at the{" "}
+        I am studying math and computer science at the{" "}
         <Link url="https://www.utoronto.ca/">University of Toronto</Link>. My
-        academic interests are mainly in logic, algorithms, complexity and
-        programming languages.
+        academic interests are mainly in logic, algorithms, computational
+        complexity and programming languages.
       </p>
       <p>
-        This summer I am at UofT researching models for community health inside
-        of online social networks, supported by an{" "}
+        This summer I was at UofT researching models for community health inside
+        of online social networks, supervised by Prof. Peter Marbach, and
+        supported by an{" "}
         <Link url="http://www.nserc-crsng.gc.ca/Students-Etudiants/UG-PC/USRA-BRPC_eng.asp">
           NSERC URSA
-        </Link>. Before that, I spent the year at{" "}
+        </Link>. Before that, I spent a year at{" "}
         <Link url="https://flipp.com/home">Flipp</Link> working as a software
         engineer.
       </p>
