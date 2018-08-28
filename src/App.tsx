@@ -41,8 +41,9 @@ const App = () => (
       </p>
       <p>
         This summer I was at UofT researching models for community health inside
-        of online social networks, supervised by Prof. Peter Marbach, and
-        supported by an{" "}
+        of online social networks, supervised by{" "}
+        <Link url="http://www.cs.toronto.edu/~marbach/">Peter Marbach</Link>,
+        and supported by an{" "}
         <Link url="http://www.nserc-crsng.gc.ca/Students-Etudiants/UG-PC/USRA-BRPC_eng.asp">
           NSERC URSA
         </Link>. Before that, I spent a year at{" "}
