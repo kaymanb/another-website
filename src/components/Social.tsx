@@ -13,7 +13,7 @@ export const Social = () => {
         github
       </Link>
       <br />
-      <Link url="kayman_brusse_resume_2018.pdf" color="yellow">
+      <Link url="kayman_brusse_resume_sept_2018.pdf" color="yellow">
         resume
       </Link>
       <br />
