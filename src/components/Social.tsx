@@ -17,7 +17,7 @@ export const Social = () => {
         resume
       </Link>
       <br />
-      <Link url="https://instagram.com/kaymnb" color="green">
+      <Link url="https://www.instagram.com/kaymnb" color="green">
         instagram
       </Link>
     </Wrapper>
