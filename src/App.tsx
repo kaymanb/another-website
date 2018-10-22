@@ -46,7 +46,10 @@ const App = () => (
         and supported by an{" "}
         <Link url="http://www.nserc-crsng.gc.ca/Students-Etudiants/UG-PC/USRA-BRPC_eng.asp">
           NSERC URSA
-        </Link>. Before that, I spent a year at{" "}
+        </Link>.
+      </p>
+      <p>
+        Before that, I spent a year at{" "}
         <Link url="https://flipp.com/home">Flipp</Link> working as a software
         engineer.
       </p>
